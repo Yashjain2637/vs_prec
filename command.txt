@@ -1,0 +1,16 @@
+  2 uv init .
+   3 uv venv
+   4 .venv\Scripts\activate
+   5 uv add -r requirements.txt
+   6 python main.py
+   7 git init
+   8 git add .
+   9 git commit -m "added"
+  10 git branch -M main
+  11 git remote add origin https://github.com/Yashjain2637/vs_prec.git  
+  12 git push -u origin main
+  13 python main.py
+  14 python main.py
+  15 git add .
+  16 git commit -m "sklearn-added"
+  17 git push
